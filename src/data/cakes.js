@@ -1,0 +1,58 @@
+const cakes = [
+  {
+    id: '1',
+    name: 'Dâu tây kem tươi',
+    category: 'Bánh kem',
+    price: 320000,
+    description: 'Cốt bánh vanilla mềm xốp, kem tươi ít ngọt và dâu tây tươi theo mùa.',
+    size: '16cm',
+    stock: 12,
+  },
+  {
+    id: '2',
+    name: 'Mousse chocolate',
+    category: 'Mousse',
+    price: 280000,
+    description: 'Mousse chocolate Bỉ đậm vị, cân bằng cùng lớp sponge cacao mỏng nhẹ.',
+    size: '16cm',
+    stock: 8,
+  },
+  {
+    id: '3',
+    name: 'Tiramisu cổ điển',
+    category: 'Tiramisu',
+    price: 250000,
+    description: 'Mascarpone mịn màng, bánh ladyfinger thấm espresso và phủ cacao nguyên chất.',
+    size: '15cm',
+    stock: 10,
+  },
+  {
+    id: '4',
+    name: 'Matcha dâu tươi',
+    category: 'Bánh kem',
+    price: 350000,
+    description: 'Trà xanh Uji thơm dịu kết hợp dâu tươi và kem sữa thanh mát.',
+    size: '16cm',
+    stock: 6,
+  },
+  {
+    id: '5',
+    name: 'Bánh quy bơ',
+    category: 'Bánh quy',
+    price: 120000,
+    description: 'Bánh quy bơ thủ công giòn thơm, nướng mới mỗi ngày.',
+    size: 'Hộp 12',
+    stock: 20,
+  },
+  {
+    id: '6',
+    name: 'Red velvet hoa hồng',
+    category: 'Bánh kem',
+    price: 380000,
+    description: 'Cốt red velvet mềm ẩm, lớp kem cream cheese béo nhẹ và trang trí hoa.',
+    size: '18cm',
+    stock: 5,
+  },
+];
+
+export default cakes;

@@ -1,0 +1,24 @@
+:root {
+  --paper: #fff;
+  --ink: #292824;
+  --muted: #77746d;
+  --line: #e9e7e1;
+  --accent: #555;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { text-decoration: none; }
+button, input, textarea, select { font: inherit; }
+::selection { background: #e8dfd3; color: var(--ink); }
